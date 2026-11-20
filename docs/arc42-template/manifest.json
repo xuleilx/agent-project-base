@@ -1,0 +1,3781 @@
+{
+    "project": "arc42-template",
+    "tag": "2026.10.19",
+    "templateCommit": "9057fe1f32ce543e546f76971515c537f0dd3f63",
+    "templateDate": "2026-10-19",
+    "languages": [
+        {
+            "code": "AZ",
+            "name": "Azərbaycanca",
+            "version": "9.1",
+            "date": "oktyabr 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "CZ",
+            "name": "Čeština",
+            "version": "9.1",
+            "date": "Říjen 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "DE",
+            "name": "Deutsch",
+            "version": "9.2",
+            "date": "Oktober 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "EN",
+            "name": "English",
+            "version": "9.1",
+            "date": "October 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "ES",
+            "name": "Español",
+            "version": "8.3",
+            "date": "Octubre 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "FR",
+            "name": "Français",
+            "version": "9.1",
+            "date": "Octobre 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "HU",
+            "name": "Magyar",
+            "version": "9.1",
+            "date": "2026. október",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "IT",
+            "name": "Italiano",
+            "version": "8.3",
+            "date": "Ottobre 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "NL",
+            "name": "Nederlands",
+            "version": "8.3",
+            "date": "Oktober 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "PT",
+            "name": "Português",
+            "version": "8.3",
+            "date": "Outubro de 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "RU",
+            "name": "Русский",
+            "version": "8.3",
+            "date": "Октябрь 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "TR",
+            "name": "Türkçe",
+            "version": "9.1",
+            "date": "Ekim 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "UKR",
+            "name": "Українська",
+            "version": "8.3",
+            "date": "Жовтень 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "ZH",
+            "name": "简体中文",
+            "version": "9.1",
+            "date": "10月 2026",
+            "isoDate": "2026-10"
+        },
+        {
+            "code": "ZH-TW",
+            "name": "繁體中文",
+            "version": "9.1",
+            "date": "2026 年 10 月",
+            "isoDate": "2026-10"
+        }
+    ],
+    "styles": [
+        "plain",
+        "withhelp"
+    ],
+    "formats": [
+        {
+            "id": "asciidoc",
+            "label": "AsciiDoc"
+        },
+        {
+            "id": "html",
+            "label": "HTML"
+        },
+        {
+            "id": "epub",
+            "label": "EPUB"
+        },
+        {
+            "id": "rst",
+            "label": "reStructuredText"
+        },
+        {
+            "id": "markdown",
+            "label": "Markdown"
+        },
+        {
+            "id": "markdownMP",
+            "label": "Markdown · multi-page"
+        },
+        {
+            "id": "markdownStrict",
+            "label": "Markdown · strict"
+        },
+        {
+            "id": "markdownMPStrict",
+            "label": "Markdown MP · strict"
+        },
+        {
+            "id": "gitHubMarkdown",
+            "label": "GitHub Markdown"
+        },
+        {
+            "id": "gitHubMarkdownMP",
+            "label": "GitHub Markdown · MP"
+        },
+        {
+            "id": "textile",
+            "label": "Textile"
+        },
+        {
+            "id": "docx",
+            "label": "Word (.docx)"
+        },
+        {
+            "id": "docbook",
+            "label": "DocBook"
+        },
+        {
+            "id": "latex",
+            "label": "LaTeX"
+        },
+        {
+            "id": "pdf",
+            "label": "PDF"
+        }
+    ],
+    "files": [
+        {
+            "name": "arc42-template-AZ-plain-asciidoc.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14571,
+            "sha256": "6ed8327e892905920e9a1af2a48d29f4e8f4d994004dd0b53057bb1fbb1837c6"
+        },
+        {
+            "name": "arc42-template-AZ-plain-docbook.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10813,
+            "sha256": "50e0c13e42c72cc8bb5bc0984730e02187ec5f6e4c51b55983a1a48959d0b8ac"
+        },
+        {
+            "name": "arc42-template-AZ-plain-docx.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "docx",
+            "size": 30137,
+            "sha256": "7993e1ed5a4536ed635ff8c8bc67e403c40f44d31182cdd7fdab3c1fbab4414c"
+        },
+        {
+            "name": "arc42-template-AZ-plain-epub.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "epub",
+            "size": 21738,
+            "sha256": "e60488e6cf1afc8365be055192130a67917b9348ab05c87148c07737c882b01e"
+        },
+        {
+            "name": "arc42-template-AZ-plain-gitHubMarkdown.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9800,
+            "sha256": "019fe82cfe71636e45912a619f66a563daf414d2b79757960f648364e66f9961"
+        },
+        {
+            "name": "arc42-template-AZ-plain-gitHubMarkdownMP.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11974,
+            "sha256": "783a5519a58d4f5c75fbd0af7816009c6724e984cdd9e5c21cb08363e17267fe"
+        },
+        {
+            "name": "arc42-template-AZ-plain-html.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "html",
+            "size": 18767,
+            "sha256": "d39ed8e02a6efeb047505893541e417192bfb9ab53365efafd04ffc0d46cb37f"
+        },
+        {
+            "name": "arc42-template-AZ-plain-latex.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "latex",
+            "size": 11740,
+            "sha256": "9e992c94d077736da914399dad77ebb9c31d6d7c68596792d3b88b3b9fa87abb"
+        },
+        {
+            "name": "arc42-template-AZ-plain-markdown.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10192,
+            "sha256": "1262d1d0d0937f039214a9aca0f30ef9b9e0ab7cbe284c26429c405c4d829f72"
+        },
+        {
+            "name": "arc42-template-AZ-plain-markdownMP.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12516,
+            "sha256": "17221a80089514e5d9f899b10b982ecad04d9955d90cc8f86c4be9da49a50beb"
+        },
+        {
+            "name": "arc42-template-AZ-plain-markdownMPStrict.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12215,
+            "sha256": "44868120c53437b8f2435a4a068900c003d556d5dc539740890f09eae8f58aae"
+        },
+        {
+            "name": "arc42-template-AZ-plain-markdownStrict.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9881,
+            "sha256": "f2b6ed396564658fca769b2eab0449ede62fb1415234f2421a626158749197fa"
+        },
+        {
+            "name": "arc42-template-AZ-plain-pdf.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "pdf",
+            "size": 93928,
+            "sha256": "b64b8813d55d5dbd6179940511b7f553f17ad87ef5449150fff16d6f227cd9e4"
+        },
+        {
+            "name": "arc42-template-AZ-plain-rst.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "rst",
+            "size": 10268,
+            "sha256": "d14b31d9376f835edb8bde6b8de7f4328c03dbd5d44510baf0ae6609b1299931"
+        },
+        {
+            "name": "arc42-template-AZ-plain-textile.zip",
+            "language": "AZ",
+            "style": "plain",
+            "format": "textile",
+            "size": 10231,
+            "sha256": "8c70f8cef5dbb3b9bb9fe1b04506b526b8bfb255c4b83690657d96be9863ee6e"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-asciidoc.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 811197,
+            "sha256": "9e9ae3c9283b3d8629d8e3b424edaa23c76a6772dd4e409348b0b12870b0d915"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-docbook.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 804180,
+            "sha256": "b3e37f176664a956bce2b3548e00d0b1463eb02c8f09ea4bf5010ef1275296c3"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-docx.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1560551,
+            "sha256": "165b3c26aaf22d8efaef8cf17acde8fdc259d5bd7a89c8ef3313f48f34483b81"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-epub.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 770736,
+            "sha256": "fff2ab821233a538c9908c333b33891f7363d05c8ac0495cc7941f554b08b4a6"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-gitHubMarkdown.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 802889,
+            "sha256": "f1d91d7e5316be33aabce0a8e7a7fe466e9dbb1bfb7618c9a564bbbe4fecf2cb"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-gitHubMarkdownMP.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 809262,
+            "sha256": "4890238a3dd19a966cd67766bfb89f924fbe62fe569deeb39a3632da474ebb2e"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-html.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "html",
+            "size": 812338,
+            "sha256": "230973470ce9726968eb4c52d35f4dd20d7fc6340252ed4a185930e0e8441b4f"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-latex.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 804908,
+            "sha256": "ea033061ef9cd42016345c600a7c6e2fa52a0ba31a4905893f9f544210728367"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-markdown.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 803574,
+            "sha256": "fb31d09636ff4002b8d265f86bb573ba8aa3bb53e17e499ce67df0391c5c0629"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-markdownMP.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 809787,
+            "sha256": "73f8de7b3ca1a5add42dcb2fa56deb8c5e6d1f242def9cc65997b9c292841bf6"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-markdownMPStrict.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 808893,
+            "sha256": "855ce9e8bcb132a48f3ab1b1eaa2a5fc46b27d0345fe017942e780ca7458f9af"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-markdownStrict.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 802773,
+            "sha256": "cd20282c69de4a91f0c89b1af4b77bf4fa6468e9e27a1c2218d10305cb03b16b"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-pdf.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 748063,
+            "sha256": "b2cef0de7b0338d9b1da3ad1ffdbf24870c161a63befe19ce5ff8508b3f20817"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-rst.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 803811,
+            "sha256": "8127a2730e0c146d7ff39117f4a407d0e1ad3b22e319240934ede42bf0b56f07"
+        },
+        {
+            "name": "arc42-template-AZ-withhelp-textile.zip",
+            "language": "AZ",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 803070,
+            "sha256": "0e3c4316d461b6fa8e03840f421fe4ce18fb9893949842531bf4fd140d9444fe"
+        },
+        {
+            "name": "arc42-template-CZ-plain-asciidoc.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14306,
+            "sha256": "e9f393f4bf28be82c892388dc2a94e268ba0e9c29683e8062118e7ee2ff25d58"
+        },
+        {
+            "name": "arc42-template-CZ-plain-docbook.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10786,
+            "sha256": "7a139039662c1d36b1ebeb44ba6bfc38d3906b7ff70b515fd4d665d858058331"
+        },
+        {
+            "name": "arc42-template-CZ-plain-docx.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "docx",
+            "size": 30121,
+            "sha256": "6d60599fbb3b17272ccde51d6ecc48cd19f084ceb534ab7b6f2cd9e736a403ce"
+        },
+        {
+            "name": "arc42-template-CZ-plain-epub.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "epub",
+            "size": 21771,
+            "sha256": "eafde6c451d12a45dc3ded7be10b27710dff81c8058776f72f903dd2bb2abede"
+        },
+        {
+            "name": "arc42-template-CZ-plain-gitHubMarkdown.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9785,
+            "sha256": "7b7f1381f51b11404149bc2ee86382c75a6698e514215c4b37420bb79b62f61f"
+        },
+        {
+            "name": "arc42-template-CZ-plain-gitHubMarkdownMP.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11959,
+            "sha256": "8408300c1d31b2de8880e33a3b458f2653b642f36532fde24cf284b3e9e226ce"
+        },
+        {
+            "name": "arc42-template-CZ-plain-html.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "html",
+            "size": 18710,
+            "sha256": "bed0e7d5601407ec614f2daecc1b3e336ea0b775a3c4f0be67f510eb9b49050b"
+        },
+        {
+            "name": "arc42-template-CZ-plain-latex.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "latex",
+            "size": 11712,
+            "sha256": "cdba558dd4a18052ebbd27b1c07216fbf3c3df98b8bf17366abc2543d5ef08bd"
+        },
+        {
+            "name": "arc42-template-CZ-plain-markdown.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10157,
+            "sha256": "cb1f4bcb93a052aa1c2f2e1a6627fba252c7f2976047e02fc308f9b926822f20"
+        },
+        {
+            "name": "arc42-template-CZ-plain-markdownMP.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12476,
+            "sha256": "f904d171c9cd26ecff4dc8ef712cf1be1cfbfb09f9b4e228751202eeefa00db9"
+        },
+        {
+            "name": "arc42-template-CZ-plain-markdownMPStrict.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12196,
+            "sha256": "daa7a1076bf7b7aaca6c9a91673a6b6d60e9adaa00c84f863c2d659ffb5ff455"
+        },
+        {
+            "name": "arc42-template-CZ-plain-markdownStrict.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9865,
+            "sha256": "f13dca4718d43273670f48da46c3f686a964f66aaf8939ba3d8ba01ee6865d56"
+        },
+        {
+            "name": "arc42-template-CZ-plain-pdf.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "pdf",
+            "size": 77677,
+            "sha256": "10ca1f7700a35392ee264dd641471a6f8553e19658cca679c87c76f7ce83e911"
+        },
+        {
+            "name": "arc42-template-CZ-plain-rst.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "rst",
+            "size": 10244,
+            "sha256": "7c0d81b0896869839cc950257fff86201cc58711dc966d290a2565f4fc038e72"
+        },
+        {
+            "name": "arc42-template-CZ-plain-textile.zip",
+            "language": "CZ",
+            "style": "plain",
+            "format": "textile",
+            "size": 10192,
+            "sha256": "a11bb3b414293145ceb2e2808464849d2744744b2d8cc7ffbdac4e908160cf91"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-asciidoc.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 809417,
+            "sha256": "a1cef3a3f572e51649cc97e949ddd12c1627b6188b849bc543d5a2cd04da53dd"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-docbook.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 803252,
+            "sha256": "8eafd6926002ec6f4bee40306b22b4bb1ee1dfd98ee894ffeadcf38775635b30"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-docx.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1559439,
+            "sha256": "e030f0959264b6bd5cd25cbe5596afbe9c3ad844ee0eb9633fceb9f76e2e76ba"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-epub.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 769230,
+            "sha256": "2c3558fce9836a36523507c606d5baa1d40a679abc76af5b0b8b2f31e34d7fbc"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-gitHubMarkdown.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 802034,
+            "sha256": "587db90740e6c6235a2e8aa186886495bc314b4ab920a490db4e887da13355d5"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-gitHubMarkdownMP.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 807655,
+            "sha256": "ccdb1bef64a98b0610c283b064994dbc9d8bd1bec1be8d01231727f25cee3607"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-html.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "html",
+            "size": 811327,
+            "sha256": "1d3c3d9b6302c8a733eedf6cec85a6605b5e20bd20bbcb09c605fdcc63e9b9d9"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-latex.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 803845,
+            "sha256": "5f0542a149b78bea028b6777d6281aefbc817754ab5ac6587e6be951cdd0d8f9"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-markdown.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 802321,
+            "sha256": "a19a8891cd3ece398c0db2c6ad086c47d320831b15bcb15779775a9180affae9"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-markdownMP.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 807912,
+            "sha256": "e41214cbc8dc568b5f63dfbcf4ce015cc763338e581e02ded8be86be4fc3f4cf"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-markdownMPStrict.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 807226,
+            "sha256": "344e4a894d72a6ce39affc771296e614420ebe19f610104e5c4306d2f7e28652"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-markdownStrict.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 801876,
+            "sha256": "7608cfdef37db91c8c18a7d3fadd53998407e522039b229be8d5ee209f67c414"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-pdf.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 681567,
+            "sha256": "aeb70d9f8802fe08821b1e3e769c6ceea5c841c40d710af128b11917a48e3c13"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-rst.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 802414,
+            "sha256": "acf37d336b33d39d00cae88c8f276f30b4484954b705b9fb5c6b6b01334d0c5b"
+        },
+        {
+            "name": "arc42-template-CZ-withhelp-textile.zip",
+            "language": "CZ",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 802124,
+            "sha256": "0435c82059c0d8de2e93f902e79ce65cf541171644216c474f157feea5d1afe0"
+        },
+        {
+            "name": "arc42-template-DE-plain-asciidoc.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14097,
+            "sha256": "ae60a91676e02fd7047cc49bbe58ece7cdfe971fc033b175bd7b73753e19d744"
+        },
+        {
+            "name": "arc42-template-DE-plain-docbook.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10621,
+            "sha256": "9a557d2278d84fce03a0e02e95a8589ae2300ea7cdb903d8d00c44db3595a8b8"
+        },
+        {
+            "name": "arc42-template-DE-plain-docx.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "docx",
+            "size": 29920,
+            "sha256": "bbd9d7ff82d3e21d8bc3c7ebc1e9de9185ded146825fff08fa94962b3524e056"
+        },
+        {
+            "name": "arc42-template-DE-plain-epub.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "epub",
+            "size": 21156,
+            "sha256": "c78eda9c6c3da4e23044b6e26c523331d7afeeca54907d9d6f9bc8c7d5578eb1"
+        },
+        {
+            "name": "arc42-template-DE-plain-gitHubMarkdown.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9638,
+            "sha256": "abde05cede3004f2b4bb6af08f88ac411d1706540ebb6308be24c1fa677a2b94"
+        },
+        {
+            "name": "arc42-template-DE-plain-gitHubMarkdownMP.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11744,
+            "sha256": "d59e5d9af65dde7b4dde1c324bb4609c5eb72515376afac7cc0087a91df34a7d"
+        },
+        {
+            "name": "arc42-template-DE-plain-html.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "html",
+            "size": 18496,
+            "sha256": "eced7255c36a0057f42abcc9ddf28a64c706ff75e9b11073940731726a9a7fe4"
+        },
+        {
+            "name": "arc42-template-DE-plain-latex.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "latex",
+            "size": 11501,
+            "sha256": "6b3cd68afc99151a65338c1d90d15ff93961f25d5cde0fbde51ba66dc282ed34"
+        },
+        {
+            "name": "arc42-template-DE-plain-markdown.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "markdown",
+            "size": 9985,
+            "sha256": "9bd8d88be8b4005bd76aca942810b43832210fdbce2c3bd0d74b692d9a52cb01"
+        },
+        {
+            "name": "arc42-template-DE-plain-markdownMP.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12224,
+            "sha256": "c17cdee43c06b5c0d206dd92631fa4aefbc09989dafb646c7cfb26fb1ef758aa"
+        },
+        {
+            "name": "arc42-template-DE-plain-markdownMPStrict.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 11972,
+            "sha256": "8478aa295b2aee2b9460f050a27403ec84f836e695b867f73a53fb561d53c8e2"
+        },
+        {
+            "name": "arc42-template-DE-plain-markdownStrict.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9716,
+            "sha256": "a6ba9836f269372b77385414d4154b06a77a8dc4d194e0f0433a4c7362886730"
+        },
+        {
+            "name": "arc42-template-DE-plain-pdf.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "pdf",
+            "size": 58185,
+            "sha256": "a05fe52a289adfabe0a326020a291e2764400f0e51649aae74be07286b555e05"
+        },
+        {
+            "name": "arc42-template-DE-plain-rst.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "rst",
+            "size": 10069,
+            "sha256": "067dc33e212676907aecd387e7822c48fd143c52222559ebcad0eb6926789f99"
+        },
+        {
+            "name": "arc42-template-DE-plain-textile.zip",
+            "language": "DE",
+            "style": "plain",
+            "format": "textile",
+            "size": 10030,
+            "sha256": "b42422f36df655d685c03a497e639bb97d168c5e7cba964921798b8027b0d621"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-asciidoc.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 681161,
+            "sha256": "abbf1968105ddd8f1f22c548a226a6a243febd9c12c954493ed040958ea9cebc"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-docbook.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 674918,
+            "sha256": "8062b6099bb5df01a39bff10e12695b39036ad482de335c739743b44d40bb9a2"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-docx.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1302873,
+            "sha256": "b05ef07e71b7c0c3c07d5908dd57b3b8dd73dc6732b683344b8dd62f60ade6af"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-epub.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 640523,
+            "sha256": "c2c5b106304f07a9c82094f40576a08a2a0f1ee0547eba3d0e2d569f6563086e"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-gitHubMarkdown.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 673670,
+            "sha256": "b1d15d011edfde43a26adb97d729a60713a33af83b8fa012494a1f1d1026ba57"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-gitHubMarkdownMP.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 679424,
+            "sha256": "e9a3996644a635e0e9e50d216d6f184384eeb8f1db1bd734ce2ead4520145ff9"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-html.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "html",
+            "size": 682972,
+            "sha256": "421aa6b28684d9cd6ebc1cccefbd464dfe7d9a9b73346a9cf5aa6241988c3a1a"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-latex.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 675476,
+            "sha256": "c76a8f0a288e654a38311690c3e6215123d46d7583828ec40324687ace0c31d3"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-markdown.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 673960,
+            "sha256": "67bde1c0755371e61c73a60216581a8fe36ee164c335448b0979023adb06d27e"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-markdownMP.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 679670,
+            "sha256": "e94b60368e1008619e2f61d669d2fa5d6af9351a82b4100fb840dc7ec5a2878e"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-markdownMPStrict.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 678983,
+            "sha256": "93d8179541119ad2e2b1a1fe62b18f74455db2dbee6ef150a63841b56bc5749a"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-markdownStrict.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 673482,
+            "sha256": "a11f972bc71c90f9ec7a68deb9e8f9a11fc2266a29b4ebbb831f3730f0d13110"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-pdf.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 569062,
+            "sha256": "7f3b87c41a58ec8cea2e87edd8c7d0b4af7cef8612675bb2656feb70cd37555c"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-rst.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 674107,
+            "sha256": "4b7b801c1578b794d18eaec27a2f9e570d2c566bca96427c2fd6123423dbe8fe"
+        },
+        {
+            "name": "arc42-template-DE-withhelp-textile.zip",
+            "language": "DE",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 673801,
+            "sha256": "3e46222da2c5e0215245df78c8f8342d58f4367a6bcaed7804e2f52e22595f71"
+        },
+        {
+            "name": "arc42-template-EN-plain-asciidoc.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 13762,
+            "sha256": "5667e9a9c4b04649406e63c591dcb5dcbe8cdfa231982440c1b43e6cf81c0899"
+        },
+        {
+            "name": "arc42-template-EN-plain-docbook.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10556,
+            "sha256": "6166631bd3daa5d4f57cd8d43b02ba4abb86b06290e79e7022dcdfd1f94961a8"
+        },
+        {
+            "name": "arc42-template-EN-plain-docx.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "docx",
+            "size": 29861,
+            "sha256": "b1ae87bf721e6b36281fbdb31104714fe3d240ac9324dbf86ba8b32a549ecead"
+        },
+        {
+            "name": "arc42-template-EN-plain-epub.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "epub",
+            "size": 20953,
+            "sha256": "b191c1ac92c246481254153acf561e4eab2ae2d34403dd22f8ae540cff45d688"
+        },
+        {
+            "name": "arc42-template-EN-plain-gitHubMarkdown.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9625,
+            "sha256": "abde96d81a7354df75a880722d641512068e516db14d2d7b50df26b917907c69"
+        },
+        {
+            "name": "arc42-template-EN-plain-gitHubMarkdownMP.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11711,
+            "sha256": "959ec93647b9a03c1eeacb4251830264febff0fdb44eb63fc5814cda4c8dda5e"
+        },
+        {
+            "name": "arc42-template-EN-plain-html.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "html",
+            "size": 18418,
+            "sha256": "7d1e484e11b74464c826c6de97e3454fa6847a9c47a11dd31b785538dcd45374"
+        },
+        {
+            "name": "arc42-template-EN-plain-latex.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "latex",
+            "size": 11409,
+            "sha256": "58fe01759a810528b77e3aea480222ca0b2e19e61aba1b793b136a7039762b65"
+        },
+        {
+            "name": "arc42-template-EN-plain-markdown.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "markdown",
+            "size": 9931,
+            "sha256": "61b465c64f109da4b1f9246c343ce850146d7cf37022c53fcef08fa14036a271"
+        },
+        {
+            "name": "arc42-template-EN-plain-markdownMP.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12127,
+            "sha256": "3ad9a704273069c265c74a0f5cec19334aeb0803b9ff37d874cfb9adf9489daf"
+        },
+        {
+            "name": "arc42-template-EN-plain-markdownMPStrict.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 11938,
+            "sha256": "b8515543da5bc849566fcde99b6e4cbcb647be38a7e09a5183561262fbbd5d48"
+        },
+        {
+            "name": "arc42-template-EN-plain-markdownStrict.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9707,
+            "sha256": "cd73821a002fda33162b56901b06143a5fc52631a63e18a5b3d8312b83a51d05"
+        },
+        {
+            "name": "arc42-template-EN-plain-pdf.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "pdf",
+            "size": 57036,
+            "sha256": "47d6d16db3d450e41f057cf8dedec7954bfe2a26e5d5a94133318b37793c4da4"
+        },
+        {
+            "name": "arc42-template-EN-plain-rst.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "rst",
+            "size": 10020,
+            "sha256": "e82afd3031471b6b8a22d02468f256fbc7cb2edaccd87da05206e40dcbf41a6e"
+        },
+        {
+            "name": "arc42-template-EN-plain-textile.zip",
+            "language": "EN",
+            "style": "plain",
+            "format": "textile",
+            "size": 9982,
+            "sha256": "495803be781f962cf6d5fb6ddeb0907948014826df04d846c33c1a531cddcb8f"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-asciidoc.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 808220,
+            "sha256": "b9349b8145c46b6e14a5dd0e8081b8cde82b768cd3f7da81ac8bc4d11bb09f8d"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-docbook.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 802885,
+            "sha256": "a06b43a521afc8af0218ab2138d99f0a1cc4b3371667fa5e40e661b668d5a643"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-docx.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1559065,
+            "sha256": "e2133182cb7c77680313e795be6f5c82cdf499ebf5fa20b25af482a8db056e49"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-epub.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 767706,
+            "sha256": "200bcdb032f9b449758fd0ed6e0ca540f4a87332bc51be1847c04a9b28f12577"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-gitHubMarkdown.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 801738,
+            "sha256": "4de9253d035553ad03c27d6344a47064aa28cdc9451f904ab99a4cbf190804ea"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-gitHubMarkdownMP.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 806749,
+            "sha256": "80626bc7d333a6c1fba97c00ff8b803d35bac71a414f4820654bd1f9ac33ce00"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-html.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "html",
+            "size": 810878,
+            "sha256": "2441ba514ac77ba6279eca82db554f047e4e93435ac8c70d7d8fe9ea7d2b35a1"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-latex.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 803426,
+            "sha256": "5a0cc4523d34a16427eb99ff1e547d570e20cdf0a224e5974688f30954abb660"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-markdown.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 802200,
+            "sha256": "2558be3be9debd74bdf5f890e06002f91778b26df9d01c44931caaed01ee271c"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-markdownMP.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 807102,
+            "sha256": "74eeebb510263a21f5c1cb5bed59e004e20deca3654f11d592121060fa5c795d"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-markdownMPStrict.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 806348,
+            "sha256": "2722cc962ec86b3938aadd885e3177b9ba34b51c0eb7e1f00596fb637e3d6a30"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-markdownStrict.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 801621,
+            "sha256": "976a681eeb8b7b611db6a4e33ccaacdc4b5d6b70faf666a278d7d5c9589494a3"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-pdf.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 662380,
+            "sha256": "0cd0cc75fd6de05194dfc6a30c73c74c8981c7a48c2a5d13e5ba355728300c3f"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-rst.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 802371,
+            "sha256": "7055371227d9b58f9ae0965d0050400d43ae334f219737aca498600ec8f7174f"
+        },
+        {
+            "name": "arc42-template-EN-withhelp-textile.zip",
+            "language": "EN",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 801787,
+            "sha256": "011e07335a1d24e7b4c6cf97f38bf88a92158f75dbe5f70192314c9168ddf6f4"
+        },
+        {
+            "name": "arc42-template-ES-plain-asciidoc.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14547,
+            "sha256": "eb1232895c7c481fd752ee99bcb4e60748ceb744dd38a331d3539873e118f376"
+        },
+        {
+            "name": "arc42-template-ES-plain-docbook.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10788,
+            "sha256": "468f61cb2f513a6e509754107956a73e68f2eec785471c80a8cef4bed420ca79"
+        },
+        {
+            "name": "arc42-template-ES-plain-docx.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "docx",
+            "size": 30089,
+            "sha256": "8d4a36fca5d2c885c6ad2b03b6145365a3f4b7603b2e8209ff6da290811067fd"
+        },
+        {
+            "name": "arc42-template-ES-plain-epub.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "epub",
+            "size": 21513,
+            "sha256": "ba55aedb4ed474503222a50b4a73281c7d2ccd42e19daa27584f2337d68cb309"
+        },
+        {
+            "name": "arc42-template-ES-plain-gitHubMarkdown.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9780,
+            "sha256": "ad6eff4294d94d5b794ed3664d97b57d676001920b1bbda8af3adc2a1ae32566"
+        },
+        {
+            "name": "arc42-template-ES-plain-gitHubMarkdownMP.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11912,
+            "sha256": "50aad866da3a89fe50b2dd92617a9cbd5824cdd71bbc823a462407946c522a16"
+        },
+        {
+            "name": "arc42-template-ES-plain-html.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "html",
+            "size": 18702,
+            "sha256": "4bcd63368861ace17d47535171170c4e61e07e17addcbd8ddc42ade6595da1cb"
+        },
+        {
+            "name": "arc42-template-ES-plain-latex.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "latex",
+            "size": 11664,
+            "sha256": "8dbe2590c50bec1a8e4204ba5c520b1c9a9cc301002f066e73c17af787781f32"
+        },
+        {
+            "name": "arc42-template-ES-plain-markdown.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10154,
+            "sha256": "d2043f73da049f8148c9b9fabc4f121c1a5295fa3191371436a5d10c666931fc"
+        },
+        {
+            "name": "arc42-template-ES-plain-markdownMP.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12429,
+            "sha256": "e1c799f962f08a2262e27fc45a36d5f158a2c03410df6783ecab319de9a18696"
+        },
+        {
+            "name": "arc42-template-ES-plain-markdownMPStrict.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12143,
+            "sha256": "d2ef11005abd2a04af2f4315dd1a53d7c477f52fcb942f3c5cc4e636fc4b5e9a"
+        },
+        {
+            "name": "arc42-template-ES-plain-markdownStrict.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9855,
+            "sha256": "5f55672e13c6acc990e7935c467010605e85ae56c88019134bffaa99d593db3e"
+        },
+        {
+            "name": "arc42-template-ES-plain-pdf.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "pdf",
+            "size": 57805,
+            "sha256": "a4bc28aeec6494c90fdb6ab2efdb58a05e01263d94ff80c6ba024f00bed62d7b"
+        },
+        {
+            "name": "arc42-template-ES-plain-rst.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "rst",
+            "size": 10240,
+            "sha256": "4e3b0cd8eb30f0ec94b40b5af8e561f25abe48048dc908fa4de948c048004b5e"
+        },
+        {
+            "name": "arc42-template-ES-plain-textile.zip",
+            "language": "ES",
+            "style": "plain",
+            "format": "textile",
+            "size": 10178,
+            "sha256": "60042a36545f3203935d670e55ce0477b44311448984306b5ba03b1b72e2cf7c"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-asciidoc.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 807878,
+            "sha256": "374b042eda7e37820ab20ff7f70e6acf7518e9f5813e932e8498a5d9c6c797fd"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-docbook.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 802298,
+            "sha256": "61b8ad1640fdb5cfcb8c0677e73ce5f87404165cd5bbf9be31c2b560758f875d"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-docx.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1558182,
+            "sha256": "a9ca4b1c9fdf65a0ee5439261192777c8b70b0303103bf4d58a5d1d2214a3c45"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-epub.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 766999,
+            "sha256": "2df345acb2aa08d2ad788dd116f33c229511815ece7a8407ecb9fa2c777d0fbd"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-gitHubMarkdown.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 801040,
+            "sha256": "b389526d98db8f57e5cda6e1e30774a9c1bed02a411bf2156438fcc8df652267"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-gitHubMarkdownMP.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 805679,
+            "sha256": "9b91249f3c728daa76a5a327ce644acb657403a96c783ffda5085f1e817952ef"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-html.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "html",
+            "size": 810411,
+            "sha256": "26691bcb239158a40c6ec0dfc8f011cb0f8ac0af297ce306975fa1816c6d1d87"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-latex.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 802891,
+            "sha256": "1378a8ec8143a72b2e1cd0ce8be2ecb3bc5bc0c088715ca3fe29a76877c93890"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-markdown.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 801369,
+            "sha256": "deee890600ffcb80691f05cdeb2001ab8aa46f0cbcd2437d03cc9b09d3ddd28b"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-markdownMP.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 806024,
+            "sha256": "33327d67653e333bc955ab8256687bdfc19520f8fbb766feae5c31c3cc5fe5de"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-markdownMPStrict.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 805283,
+            "sha256": "a9dd2fbc745e35117186d0faef5ee6646f8a78a32ec25b79521c9721c3b23065"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-markdownStrict.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 800887,
+            "sha256": "0512b84857eab1f22a35573e450fe1f59789dbeee4996b0e96d4d3e9b50395fd"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-pdf.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 658166,
+            "sha256": "a61ac47d7b51342e9c1cc00d3df1301ff7cb8ef717c61c81df88602bf2503de9"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-rst.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 801572,
+            "sha256": "1a13636988416f12b91b5bec63427411c38e5c4300a655de64e7a1797f453924"
+        },
+        {
+            "name": "arc42-template-ES-withhelp-textile.zip",
+            "language": "ES",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 801159,
+            "sha256": "2b8c975765b005b382fca6ad3af2042f94577478b26f9024766024163b44a93a"
+        },
+        {
+            "name": "arc42-template-FR-plain-asciidoc.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14057,
+            "sha256": "8711eeaba480bb049d3b04f84b2c2b7e4fd2994c0c34a0a708730ab32e4cb63b"
+        },
+        {
+            "name": "arc42-template-FR-plain-docbook.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10686,
+            "sha256": "f152c19ccd9af299abfbcede211e3fdc27594f5f82c5e20046cc6eca869b1836"
+        },
+        {
+            "name": "arc42-template-FR-plain-docx.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "docx",
+            "size": 29850,
+            "sha256": "b4bf3feefbbfc5209609d66470ea9d99f2ebd4f5eefcc3da5e81a9df08458370"
+        },
+        {
+            "name": "arc42-template-FR-plain-epub.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "epub",
+            "size": 21264,
+            "sha256": "835c57d4afdf7abbe38469e26d111f40b71c032797f762ce8c65f75c401dc5fa"
+        },
+        {
+            "name": "arc42-template-FR-plain-gitHubMarkdown.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9713,
+            "sha256": "3f547e5f72910052778c6305d17b3a87a68216f9eb09d727ca7d6ef44fd3c616"
+        },
+        {
+            "name": "arc42-template-FR-plain-gitHubMarkdownMP.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11844,
+            "sha256": "473ee07e82f93deaaef6a70795dfccaa45b9afb335451c36230971fac0fd5e03"
+        },
+        {
+            "name": "arc42-template-FR-plain-html.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "html",
+            "size": 18553,
+            "sha256": "14bb29a902760cc5120b9b8c6fdbbe705542d4ba7c7d2a3b16ab3567f7f35c42"
+        },
+        {
+            "name": "arc42-template-FR-plain-latex.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "latex",
+            "size": 11569,
+            "sha256": "851a2db9eeed5e8763364da31044b9d10ad04f434d86da91ac5858740123b81a"
+        },
+        {
+            "name": "arc42-template-FR-plain-markdown.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10048,
+            "sha256": "5de6b5a0e7a74fc8d139131b7d114cc3678de5ed319ecab38f26a0accf3cbb38"
+        },
+        {
+            "name": "arc42-template-FR-plain-markdownMP.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12285,
+            "sha256": "4dbff364ba8959c57be678418242edfc682d530d34d51af601d0db41b66f095e"
+        },
+        {
+            "name": "arc42-template-FR-plain-markdownMPStrict.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12079,
+            "sha256": "34c20830723f1dc16b98bd8660017d2245f56d1ce91ee2298acc0bfea0af3f33"
+        },
+        {
+            "name": "arc42-template-FR-plain-markdownStrict.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9796,
+            "sha256": "c9cccc4fd4626821af8c7ef471985a3c4c3f9f5fe4d1ced14c733ba9ef947c5b"
+        },
+        {
+            "name": "arc42-template-FR-plain-pdf.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "pdf",
+            "size": 56876,
+            "sha256": "73c5cd3c091372cfd5e15c69e66ad601681ebd4254818d1f683529b1c6a23ca6"
+        },
+        {
+            "name": "arc42-template-FR-plain-rst.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "rst",
+            "size": 10140,
+            "sha256": "31cbaafd579c18eda0c94b2798efc891f561e3773ec8bdc70ea24a98e4788077"
+        },
+        {
+            "name": "arc42-template-FR-plain-textile.zip",
+            "language": "FR",
+            "style": "plain",
+            "format": "textile",
+            "size": 10101,
+            "sha256": "6dc159beb6591b89a0db3661ad3f9f48a0374652ebf1284dc16d334451ef56d8"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-asciidoc.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 809646,
+            "sha256": "37f2ccb4ffe75e1787f2e6076d1897ea02a709cbdf6503fafdd2b59581d64509"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-docbook.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 803485,
+            "sha256": "4c9e9fa93ef8fcbc32a3d699f858dbf3304f56fbfe1812667590a22ea941f384"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-docx.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1559498,
+            "sha256": "0ae4a959c46daeee8a37fb2be7a8c59628d00cb9f6e3804462271cf90d1ba202"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-epub.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 769285,
+            "sha256": "57a0c002be1d8b6e7594b8720c48394c0836a544600e60720c967485ee42f749"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-gitHubMarkdown.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 802312,
+            "sha256": "83253b45ad10b1b34d5bbe57667fd104c656e4a4d4dab1d67bc1862ab8ec93bf"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-gitHubMarkdownMP.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 808109,
+            "sha256": "6d5c3b22f73faedf150c00d6fd578b6438381f296a512e5d3c418e017f8ade2f"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-html.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "html",
+            "size": 811524,
+            "sha256": "55a107cde5cfb37bfd6b742c3a3ba2d53f591e37d777fd346c8930de3cd11450"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-latex.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 804187,
+            "sha256": "9ded801fa2ad439b18d2689539c519d8a1141489bab66a8b36194c198dfe3ab6"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-markdown.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 802680,
+            "sha256": "94aa59ac203254d6bef5e52480295b972d140f432562e832655cd424c31100a6"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-markdownMP.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 808343,
+            "sha256": "feadf9dc5f09182fb431696fe8bf80de77b4fd0505ad557731b6061010f3c728"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-markdownMPStrict.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 807790,
+            "sha256": "6e3accbb65efff5f6c6e40c558cdfc9d7ff07f65f578a907235f853a682a1d05"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-markdownStrict.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 802207,
+            "sha256": "58890b68ecca2d0c299efd49532a97bf03b0b0df30f98ffe39e06e2428f894a4"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-pdf.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 663295,
+            "sha256": "412e6c2f1e8b8aa75225f5e6820dc2fe08a0c239dd2f127e8733cd972fe1b254"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-rst.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 802900,
+            "sha256": "61064c666b20970ad8f7924f714eb3b1f7fa36a29c08f48b5069faf7ccdb2e24"
+        },
+        {
+            "name": "arc42-template-FR-withhelp-textile.zip",
+            "language": "FR",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 802316,
+            "sha256": "bdbef04a4b5340703a98c6e2bc4d6fc74b83a6329ec605edd38d3178e5f656cd"
+        },
+        {
+            "name": "arc42-template-HU-plain-asciidoc.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14391,
+            "sha256": "d84b7f6cdea93284ee8e8eac5edaced051b38ed6453f1a02f126c820552d2425"
+        },
+        {
+            "name": "arc42-template-HU-plain-docbook.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10718,
+            "sha256": "ce631d863e08ff7b34b20475a9346a89fb6679e83db6e7ccb630f248b3fb556a"
+        },
+        {
+            "name": "arc42-template-HU-plain-docx.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "docx",
+            "size": 30088,
+            "sha256": "05a1a134cb2aa4a804ab1f238fac4962c3c4ea930cb0b1c87aab80eafca19ec9"
+        },
+        {
+            "name": "arc42-template-HU-plain-epub.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "epub",
+            "size": 21573,
+            "sha256": "35dc985d04c4b7248b83cc8110ca58bccddd2341ed012ab08f024991279cc8b3"
+        },
+        {
+            "name": "arc42-template-HU-plain-gitHubMarkdown.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9757,
+            "sha256": "a02fcdddb8855be08aeab0c03a1bb93dcf26cf357a3c0d8862a9640b16200ccc"
+        },
+        {
+            "name": "arc42-template-HU-plain-gitHubMarkdownMP.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11936,
+            "sha256": "e0fc169dc19e062f637acd42b7e3284f9234439f0ee886fa0a9c019cc9c7d7dc"
+        },
+        {
+            "name": "arc42-template-HU-plain-html.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "html",
+            "size": 18658,
+            "sha256": "13fa291776c68e155a01d9795f22106b47487005b84f6fc8ab30788ed1e0a5a1"
+        },
+        {
+            "name": "arc42-template-HU-plain-latex.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "latex",
+            "size": 11661,
+            "sha256": "c43fc44100784897facad775a619b14784bd0a9d09c0bd1abe36654ed8a58fd8"
+        },
+        {
+            "name": "arc42-template-HU-plain-markdown.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10127,
+            "sha256": "cf21afbe3645185b7fcfbf014e3a4ab513718fc14267271872a32f13cf7e77c0"
+        },
+        {
+            "name": "arc42-template-HU-plain-markdownMP.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12449,
+            "sha256": "c0ebe47d28de0a9d904bd64154f31802e7af3746001eee95e4b6b3466b9b2d13"
+        },
+        {
+            "name": "arc42-template-HU-plain-markdownMPStrict.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12174,
+            "sha256": "125ab49e5e738bfeefd7982fa89239075e9768786f229e49f8a8a443ed1c2181"
+        },
+        {
+            "name": "arc42-template-HU-plain-markdownStrict.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9839,
+            "sha256": "96b921e12743dbe8799619dae5357be375530e824dd1147abbed125b4fb36b33"
+        },
+        {
+            "name": "arc42-template-HU-plain-pdf.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "pdf",
+            "size": 73248,
+            "sha256": "108ff49c79b349b4a70a3572bad3fb8be09b436dc3001dc45e5c67ac27ca60e3"
+        },
+        {
+            "name": "arc42-template-HU-plain-rst.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "rst",
+            "size": 10185,
+            "sha256": "c72fe976bbfcfc795ac73444bac9385e83b7c8a81359e5d019c7f98b1e57198c"
+        },
+        {
+            "name": "arc42-template-HU-plain-textile.zip",
+            "language": "HU",
+            "style": "plain",
+            "format": "textile",
+            "size": 10164,
+            "sha256": "3f7c3dda37872af04c023d68d9da158f01ffd957aa5870108648bd5135ae1b91"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-asciidoc.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 809886,
+            "sha256": "703f5204a27217baf64b90d4584c87e3a714ac11b19f6e5d7927172248016de2"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-docbook.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 803365,
+            "sha256": "041ecee1ff98bce688a52f3f43f924a5cb5bcd4b70dd3c67ca869254e37d1b82"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-docx.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1559659,
+            "sha256": "3fa9b294d3d0b5e23c79c9719afaeae29102b8381c4eb962ffb7ce7e10a88250"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-epub.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 769376,
+            "sha256": "ed3de68d0bc1cf3c8b6bfcf4fe28a6e91a6230b96ae883ccc4a83e625dc338a2"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-gitHubMarkdown.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 802152,
+            "sha256": "903903748d100d9319bcf6bfa1ab048821fbbba62bc64d24a756675dd1017113"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-gitHubMarkdownMP.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 808006,
+            "sha256": "5322970b5f6a346ee3fca1f65c233827149d93117460bda900a469638d3431e7"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-html.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "html",
+            "size": 811460,
+            "sha256": "ac13c453a54bef57438301eb725275d6fc341bf7f69683b5939ee7ec178b986b"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-latex.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 804007,
+            "sha256": "f5f5cd3b699d73e42e0b7568db870b1473cfa2312e42483ae89d396a8996675c"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-markdown.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 802453,
+            "sha256": "875dcce4c65dc79c2a1a0b735d21a64ba1e422b3212c7a21d945f4741453dfbf"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-markdownMP.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 808253,
+            "sha256": "dcec2ceaea886c3c8d9b3ce9958bd36de72b76c2992e351746dce60f249b0126"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-markdownMPStrict.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 807592,
+            "sha256": "f8b7b9d5830be7232ace58cc58757428604fc08c3f2ba8b57cc94f93cd2c0043"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-markdownStrict.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 801973,
+            "sha256": "e79fbbd352dd7607f7aa7c53cf2cc22344fcc851bb4af0616724b73d1196619e"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-pdf.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 675701,
+            "sha256": "f7a7247b92e57fa89dad42a965f566f525faf589b7a7224db957ebbf384737fe"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-rst.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 802575,
+            "sha256": "35f0f324f3e3a47505c3a77e88fb404a06651d8fb72c4ef55969e277549f86d2"
+        },
+        {
+            "name": "arc42-template-HU-withhelp-textile.zip",
+            "language": "HU",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 802265,
+            "sha256": "5cb0aa1bc47def3305ee1fd23b2197ee4ec05ffbb320480d7328dfba80e8c68e"
+        },
+        {
+            "name": "arc42-template-IT-plain-asciidoc.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 13992,
+            "sha256": "ae5fe93825cbc7a4c0fbc8071c234c02c0ef31d8cd7b65e054fd4f890f98a375"
+        },
+        {
+            "name": "arc42-template-IT-plain-docbook.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10735,
+            "sha256": "ec5917c1f238619613b2b4aa149a351c16550d4994dd897c274b7a4987679983"
+        },
+        {
+            "name": "arc42-template-IT-plain-docx.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "docx",
+            "size": 30053,
+            "sha256": "ae2cfa6414bad2aa553e5526d31af77321a1efa973be2dd9339dfcf92d970e55"
+        },
+        {
+            "name": "arc42-template-IT-plain-epub.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "epub",
+            "size": 21254,
+            "sha256": "bcd0eb12e2c681092dcdbf6b1512959554f32c13618f2fe194bc6c7ecfb5b694"
+        },
+        {
+            "name": "arc42-template-IT-plain-gitHubMarkdown.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9777,
+            "sha256": "23dd0d447af3cd8f341d0adedf9dbfeb117bfe9327b24de03084eb343ee45ed2"
+        },
+        {
+            "name": "arc42-template-IT-plain-gitHubMarkdownMP.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11845,
+            "sha256": "f0548f04efe0e2709f26c877ab8e6d67c485798fff32032b1a0d2089c9f851d0"
+        },
+        {
+            "name": "arc42-template-IT-plain-html.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "html",
+            "size": 18637,
+            "sha256": "d78f46b37580eabb4383270a5217eff985a8e0b9a43ae65c753a4f8ebff9b73d"
+        },
+        {
+            "name": "arc42-template-IT-plain-latex.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "latex",
+            "size": 11583,
+            "sha256": "2dc0ed3ba4c460ed46f8100f3ddb5203cedaa19c39a1a4807a41bdb6a1af1cd5"
+        },
+        {
+            "name": "arc42-template-IT-plain-markdown.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10103,
+            "sha256": "452c88c69a7f4e6395a2c2ace059392d4a81830d47ff3faba808e3e45d3343e6"
+        },
+        {
+            "name": "arc42-template-IT-plain-markdownMP.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12305,
+            "sha256": "bdcf1cefe5402fa15bb981a2e178c8714f1137992a38b267ad2de4ff09029d5a"
+        },
+        {
+            "name": "arc42-template-IT-plain-markdownMPStrict.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12076,
+            "sha256": "82684a81d6fb0e8d2d24eec8f1ef2091637f21e2d108f2edde2c5d8e4a019deb"
+        },
+        {
+            "name": "arc42-template-IT-plain-markdownStrict.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9852,
+            "sha256": "b8f03d73b11b2cc7c93081ae754dbe1244004bf9ceb2a82d067e8268f29db706"
+        },
+        {
+            "name": "arc42-template-IT-plain-pdf.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "pdf",
+            "size": 57574,
+            "sha256": "e44c8b6f1113090f8fd148217c73df5df54b738df04a8e0dd2165d7a974f130a"
+        },
+        {
+            "name": "arc42-template-IT-plain-rst.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "rst",
+            "size": 10185,
+            "sha256": "85b3df1f79aabdcad3061aaecb696563529abe8139b0c59ea1bde46ea11abdb4"
+        },
+        {
+            "name": "arc42-template-IT-plain-textile.zip",
+            "language": "IT",
+            "style": "plain",
+            "format": "textile",
+            "size": 10141,
+            "sha256": "8dde04ad9772406f9f570b16d169e6c7ce34d19d02ab20c10d59526e6e80ee72"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-asciidoc.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 618287,
+            "sha256": "625ff4b11bb7258a456a9f8aee0e1d1241868cb4cd534e14a9b5b19bae7688a1"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-docbook.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 613145,
+            "sha256": "46f26554de7f5abb38db565b248de306435ebdd6011bae4c894ecf09b6968508"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-docx.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1180002,
+            "sha256": "91f605e5d762e4d550e0489308697d99d113646b26eb6692ba6977fee8ff6d75"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-epub.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 577724,
+            "sha256": "d41cacf0e2bb3c6e81afa5cdf4e6093f6687d31ef93f926215ffcf92bd4ad1d2"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-gitHubMarkdown.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 611974,
+            "sha256": "714d7d7ee7b7b9f0b65e9987fd43ed5febdd60c21a1e8ce5df893799eaa6d7f6"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-gitHubMarkdownMP.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 616607,
+            "sha256": "82b2d7e0b1aaf46d7a2ef17dee181ecacbd61a440ddd78af3171ac34d0239c0a"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-html.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "html",
+            "size": 621180,
+            "sha256": "6545e4fd89c219ab48a0d719d2a63898fa383a09302993666f7ec248589268ee"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-latex.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 613738,
+            "sha256": "fceee5ecb35c42f673e84d06844f701d401e0d72e4ee005586e09d19bd1846a4"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-markdown.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 612253,
+            "sha256": "ecb7fa1cc0fb8e74ade0e76a4c24380db9619ab0931ddb05c308587cf6c0154f"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-markdownMP.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 616835,
+            "sha256": "c815b1a805fa5d4f390f89b27d6ea4f3c98bac7abb305abe18dc4b9a735e7ac0"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-markdownMPStrict.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 616209,
+            "sha256": "0423df0ea7e16bbb9bc944f5651d09750b8b90f5ca4abdd0891e762b0eee5ab9"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-markdownStrict.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 611802,
+            "sha256": "9ef5d3bbdb66083ef178c91f7d39943510ff2e69f2ef0cc20b065f26114de3b8"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-pdf.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 529036,
+            "sha256": "337f5640f0ddd43831355c605c4fd1ed58fe8e0b4d5d310464849633d29936c2"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-rst.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 612395,
+            "sha256": "84711905f90f9c6e29d5fa144974e01a191fa212c234cb9aaf951ffe450f54f3"
+        },
+        {
+            "name": "arc42-template-IT-withhelp-textile.zip",
+            "language": "IT",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 612027,
+            "sha256": "a8c5fed931f0502605ba3f403b28143b48ab538437f18ee640a9cace6d2bebf7"
+        },
+        {
+            "name": "arc42-template-NL-plain-asciidoc.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14288,
+            "sha256": "28eedb357540a4765efbcb48f9cb447495450a523e11197f48de2ea11e323260"
+        },
+        {
+            "name": "arc42-template-NL-plain-docbook.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10773,
+            "sha256": "5b54c7411b1454ece7a00523b1307183d94e92111c92f315bcb9cd04b19dec29"
+        },
+        {
+            "name": "arc42-template-NL-plain-docx.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "docx",
+            "size": 30102,
+            "sha256": "072f63d965a8600df38a2d3a41459ceb4c977387bf0c0ad41ccaeec143ce73ff"
+        },
+        {
+            "name": "arc42-template-NL-plain-epub.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "epub",
+            "size": 21327,
+            "sha256": "791f04d00e3bef1392aeef6207ebbb1b2ff321757e5c3190cbf793599eeaa904"
+        },
+        {
+            "name": "arc42-template-NL-plain-gitHubMarkdown.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9747,
+            "sha256": "70e0f32976a2efd44ae417229f9e8da957df0d0ccf6d4ccd0ba566a7931f51c6"
+        },
+        {
+            "name": "arc42-template-NL-plain-gitHubMarkdownMP.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 12158,
+            "sha256": "59e19893f4eeaf84afaea27a2151fe40867e1ed2f43bcb7856ee2bf9164535aa"
+        },
+        {
+            "name": "arc42-template-NL-plain-html.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "html",
+            "size": 18624,
+            "sha256": "5b5a579b9ef4de614afdbb79cc526f5f162bcbcfa964202eaa1e9d32325dba38"
+        },
+        {
+            "name": "arc42-template-NL-plain-latex.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "latex",
+            "size": 11595,
+            "sha256": "89995860b0a628c89307ed7178399400f25757baa6cf98e6968c5615ce42c499"
+        },
+        {
+            "name": "arc42-template-NL-plain-markdown.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10072,
+            "sha256": "261e6925070696f5be2b6191e1768e310947dfe24603f881bb69dd11acdf6745"
+        },
+        {
+            "name": "arc42-template-NL-plain-markdownMP.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12641,
+            "sha256": "ebc3bda29a83644440f0ad908c8577f178e2d9d8d15e779510b08ec479a37923"
+        },
+        {
+            "name": "arc42-template-NL-plain-markdownMPStrict.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12466,
+            "sha256": "9c6c7d6e1c7469939230e65e5136011b36cc08497c41eebca8e95d70b666e702"
+        },
+        {
+            "name": "arc42-template-NL-plain-markdownStrict.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9820,
+            "sha256": "78841c84ba96f4592ef5a6247c58ce33b14f75415c895a60c5745faacb7052ae"
+        },
+        {
+            "name": "arc42-template-NL-plain-pdf.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "pdf",
+            "size": 58347,
+            "sha256": "4fea13250b7c063b82c2834943987890159c2bc8c3be9ce7d21e7f1b4104c513"
+        },
+        {
+            "name": "arc42-template-NL-plain-rst.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "rst",
+            "size": 10161,
+            "sha256": "4bac2d65c162c927678ae2e62cbd5f85db3fc870d634c35a931439e8e39fd2fc"
+        },
+        {
+            "name": "arc42-template-NL-plain-textile.zip",
+            "language": "NL",
+            "style": "plain",
+            "format": "textile",
+            "size": 10102,
+            "sha256": "3c9e5ac8168053399326d724fdebf2f05c40770ac13e0278183e6f7d649290d9"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-asciidoc.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 808247,
+            "sha256": "fc6ea9c9b4f4e05df19ada80e3c39b625008cc3fb8c1b8930443253e9042c2f9"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-docbook.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 802426,
+            "sha256": "c8aebb908d3c9445706dcf9e8b78c11154537fb2cbb993cc40590c7a3ed7dcaa"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-docx.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1558578,
+            "sha256": "aaa361a003757230828d623276372b2ff7793bca0ee20070f0cc406e0d1df700"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-epub.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 767589,
+            "sha256": "92aac20705a51c31a61a48f0510e3c9ecaac1ee3b88fcb983e518cc6f0a8faf8"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-gitHubMarkdown.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 801313,
+            "sha256": "54d445a8253b5a8e61965de11a32bf97d83870b83c468bcdcb4de9d0af4e9aa9"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-gitHubMarkdownMP.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 806717,
+            "sha256": "68f6cee14e264b5ec39ca6056e58c906ae8bca7ff853189777769e277cf87f7a"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-html.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "html",
+            "size": 810464,
+            "sha256": "e3154ea972218827ac9f6b080b3c3c4080e1c4ba63abf443e6410aa93bf8a73f"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-latex.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 803130,
+            "sha256": "8ce58f8212f91ac5b4d916c0bd03e9cadbeb54ae2ef289c72c3956133ac50ccf"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-markdown.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 801607,
+            "sha256": "47a5b02a5a7054e3cb66ef49a99c0f1bfe042787e30405a06f681c81bbbf3a4d"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-markdownMP.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 806957,
+            "sha256": "ddeb097dc0f7c4ca19d9cd8255bd9fbf794c6db72d127c86370db22da9b617ce"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-markdownMPStrict.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 806351,
+            "sha256": "ac80d6e894c08b898dded45c6b58716f6acf883a85a7778c512ffe39369d38ad"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-markdownStrict.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 801110,
+            "sha256": "969328ea8374796d8b2e10734275c31e4499e1b1c6fa7130fdb71e98ce1ca70c"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-pdf.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 661127,
+            "sha256": "b67972574a3dbcb2ec64d969b005a0f406f6e6c6ca5a3290aa45ce335332688a"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-rst.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 801740,
+            "sha256": "2ceafac1ed0588ff0168fab383478a917569e993d7b06a14fe4ab87f2f534470"
+        },
+        {
+            "name": "arc42-template-NL-withhelp-textile.zip",
+            "language": "NL",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 801356,
+            "sha256": "a27064aa4f3f500093e386da6a86fd1591d37038b060dfe209e7b6dbf9fbc96a"
+        },
+        {
+            "name": "arc42-template-PT-plain-asciidoc.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14037,
+            "sha256": "c50b8a5c92cb8bbc81682abbc988762784428457cc6ce7fb8f27f223b34e2dba"
+        },
+        {
+            "name": "arc42-template-PT-plain-docbook.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10719,
+            "sha256": "e0222b68fc2a0518b0a7a43e22f7291ac5af596b1f7e2979611330c535e51887"
+        },
+        {
+            "name": "arc42-template-PT-plain-docx.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "docx",
+            "size": 30016,
+            "sha256": "c750fb1a74485f093ae9cae964dcc1fb1075b7e315e86487400e08489f54b375"
+        },
+        {
+            "name": "arc42-template-PT-plain-epub.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "epub",
+            "size": 21479,
+            "sha256": "c52c6f4d560db501c37be14fa4a14e16ff9e7a76891106dcf42100db8652aaa7"
+        },
+        {
+            "name": "arc42-template-PT-plain-gitHubMarkdown.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9720,
+            "sha256": "0b40a06596e85e520516bbb8bbebeadf3e39469ac7f0a0d5c9a8a500cd184362"
+        },
+        {
+            "name": "arc42-template-PT-plain-gitHubMarkdownMP.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11845,
+            "sha256": "7676f98987528efe9e10e462bbd0ed371307108b892c3c8ea7143cf2f622a0d4"
+        },
+        {
+            "name": "arc42-template-PT-plain-html.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "html",
+            "size": 18646,
+            "sha256": "9d4a1bb90a58bef324cdd5b79e5bc4b3f23c84fef6a6a236368c4136bf03ad3c"
+        },
+        {
+            "name": "arc42-template-PT-plain-latex.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "latex",
+            "size": 11624,
+            "sha256": "260c48e6e3209662c64beb6a16dde55a5dfaaa59cb35037a585c6e985a15d17d"
+        },
+        {
+            "name": "arc42-template-PT-plain-markdown.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10103,
+            "sha256": "ff30deab1480829afe6238deb4e6a65531bfca7e7718e5fb91dc7fc03a2f2ded"
+        },
+        {
+            "name": "arc42-template-PT-plain-markdownMP.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12375,
+            "sha256": "e296fca045eb86872579b265898eeb1f01b9b7dd155cf862af92bd3dbee90923"
+        },
+        {
+            "name": "arc42-template-PT-plain-markdownMPStrict.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12083,
+            "sha256": "6a5e46a705c746b3662f07e9d9ab63cf25dbd102e6c2bc9b6d35d6e17d858d2f"
+        },
+        {
+            "name": "arc42-template-PT-plain-markdownStrict.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9797,
+            "sha256": "61e0d4d2821ebcafddcb0960dfcfef746fd51eaa9a875060d94133399b133702"
+        },
+        {
+            "name": "arc42-template-PT-plain-pdf.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "pdf",
+            "size": 57822,
+            "sha256": "7e7ec1ce79b7be7c876682bc6a7e35ca056ccf0bb9100135341bf0af9d161e8d"
+        },
+        {
+            "name": "arc42-template-PT-plain-rst.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "rst",
+            "size": 10188,
+            "sha256": "891086a6e4407a85008e855023db084ba789bc4a9a499c2f069b34e5831d8848"
+        },
+        {
+            "name": "arc42-template-PT-plain-textile.zip",
+            "language": "PT",
+            "style": "plain",
+            "format": "textile",
+            "size": 10144,
+            "sha256": "b30b54b0b2fd460c703d015a2100726956a36c23275666b9a7e0f74c952d7b1e"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-asciidoc.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 807931,
+            "sha256": "2358c986a78381174e236cfd3c33388a09bc3eac4ee261c9e77d24fe03e372ce"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-docbook.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 802220,
+            "sha256": "bf87e7f12e19be16e1eeb22daef99439554de226db3799044d11f66f0ccbfd72"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-docx.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1558363,
+            "sha256": "ee76b6d2719c35aba517c83c194e580e5aa6e88ccf4a75fa29ba95ae4050eae4"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-epub.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 767637,
+            "sha256": "d8a68f3dee9ec3206af7c8c798215629690c52b245a5e4670461211439684d9c"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-gitHubMarkdown.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 801113,
+            "sha256": "f01591c3152e1180ac918686b5e0baaae1b498d2b20d11017eab5b202ba3012c"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-gitHubMarkdownMP.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 806369,
+            "sha256": "de77086305a4dfca839b814a69b20829f20cf23afdcd92e25ac5bc07d93831db"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-html.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "html",
+            "size": 810321,
+            "sha256": "02f563305bdfc482f4b4afeb98b0d0a4a19c6e5e266fabd87c52ef8a277f9ffc"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-latex.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 802940,
+            "sha256": "a45a67b12a990a69387e479065e2a97e4bfa1483f6fba1399e4efe3e3890bf71"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-markdown.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 801401,
+            "sha256": "ecc5776e9fa27e7841b89f02c745f1b28c6d31bb28f7d9befc5133de98945234"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-markdownMP.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 806611,
+            "sha256": "577eac8d4186f441a542cda357a24f5140241ce96d55343cb3882b1a13ec3b18"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-markdownMPStrict.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 805927,
+            "sha256": "0c40fad1708e5ab097a48d93f7b9154cfc15bb2958e5713eeb6e7d92295239ec"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-markdownStrict.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 800942,
+            "sha256": "041d506e156193e97122d628f7417366e38d17e1abff4e37daf0323b6859b295"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-pdf.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 660275,
+            "sha256": "e2e16804caa09b6297b61d51fa8c7841def0ac407003ffea75c648cb40e29a11"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-rst.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 801564,
+            "sha256": "055d8243777a3028028b61829c1e1df611d3bac71499c90c598c68acbc632037"
+        },
+        {
+            "name": "arc42-template-PT-withhelp-textile.zip",
+            "language": "PT",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 801160,
+            "sha256": "c8b603b87c5847bd6122ba645780d5fe10bc9cb5a8d79a9976e17d8195c4e581"
+        },
+        {
+            "name": "arc42-template-RU-plain-asciidoc.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14772,
+            "sha256": "e84af56f74d34fdeb1a9a4a4a1b255e8037ab77ee4ab5416a96acf47a3c29c71"
+        },
+        {
+            "name": "arc42-template-RU-plain-docbook.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "docbook",
+            "size": 11119,
+            "sha256": "f31a1ea4cef4c98df409c99cb18c4497aef85b3690eaca2a4d9a295809e6cdde"
+        },
+        {
+            "name": "arc42-template-RU-plain-docx.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "docx",
+            "size": 30500,
+            "sha256": "1b5d7000654dcd2fffcb8da3fd687af4300617e1447b39f6409cd921d35d9db6"
+        },
+        {
+            "name": "arc42-template-RU-plain-epub.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "epub",
+            "size": 22896,
+            "sha256": "e84fb61c4dfd7c4fd32882fda2737489752a15e05431a8cf497639ce111bbd70"
+        },
+        {
+            "name": "arc42-template-RU-plain-gitHubMarkdown.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 10025,
+            "sha256": "3d183afe5104931e08ee1164a3b24c850b4ed6004e0b867ce0c8e19c394627a9"
+        },
+        {
+            "name": "arc42-template-RU-plain-gitHubMarkdownMP.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 12397,
+            "sha256": "84c8f61e8cac2684d3c430fd35244bf12c12c839967934902f3485704ada57a9"
+        },
+        {
+            "name": "arc42-template-RU-plain-html.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "html",
+            "size": 19120,
+            "sha256": "d7ed8a05911e1591c25b278ebe792cd954d5c736d5b52c1d9f1445db638fcbcd"
+        },
+        {
+            "name": "arc42-template-RU-plain-latex.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "latex",
+            "size": 12312,
+            "sha256": "d19b70ffab64f9f77fea61c72d93a038e8780390b8098fe47dd9c7281fbf9ace"
+        },
+        {
+            "name": "arc42-template-RU-plain-markdown.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10470,
+            "sha256": "1fc4eefd771408a63c2356ac3e7693ab56975380aefad5629595c9b707aa6c71"
+        },
+        {
+            "name": "arc42-template-RU-plain-markdownMP.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 13030,
+            "sha256": "183711cfdc0c66f3c5dc181d1a759a5f2ba22e4e3426f4e4187fbbfa049a278d"
+        },
+        {
+            "name": "arc42-template-RU-plain-markdownMPStrict.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12681,
+            "sha256": "39a7f5b2d57ed947d8b1ca182be3f776d95bf0b9d881041bc5f387b9706ad78e"
+        },
+        {
+            "name": "arc42-template-RU-plain-markdownStrict.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 10124,
+            "sha256": "2e6db96121b5eebb5267e02a5af3904984bf9aa27776b6c625e79e0ead71a9c0"
+        },
+        {
+            "name": "arc42-template-RU-plain-pdf.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "pdf",
+            "size": 83564,
+            "sha256": "ccab71629e3f7b145224ac2f26f96ce0a984a9ba149cde1d5a8b4e9dfecc3ba2"
+        },
+        {
+            "name": "arc42-template-RU-plain-rst.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "rst",
+            "size": 10542,
+            "sha256": "cbc52ac72187876162348be6ea2a2827aa04c13d2ff37385dbc58bf362564535"
+        },
+        {
+            "name": "arc42-template-RU-plain-textile.zip",
+            "language": "RU",
+            "style": "plain",
+            "format": "textile",
+            "size": 10506,
+            "sha256": "7901ea4202aac56885a7402b6e57d45547af7ba187454630784d99e0f55a7a2b"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-asciidoc.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 812266,
+            "sha256": "b17714de4919e080f3c14392c4ac86a4de2e6c5bba791a47b69adc1e667d01e6"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-docbook.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 804724,
+            "sha256": "2f6b88611b3e0368af6cdf5431d89549a9d8d6e9f4eedb5fc96249170cbe157a"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-docx.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1560865,
+            "sha256": "2b880e4d18e0bc06b8af9d36bcbd6c002a1922e1788928d20b78001eea39aa6d"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-epub.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 772773,
+            "sha256": "c8e00d32a1e1da517bf77ed0febc11d62211f7193199ddb2ab6d3c3979309abf"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-gitHubMarkdown.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 803431,
+            "sha256": "18121341d97d39f9054ef6dcae2e1c1d1f732f0aa6ee587efcacaf8e116e09be"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-gitHubMarkdownMP.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 810511,
+            "sha256": "80dda500fd3055a7683bb2a6e3847302a900d277cae0aaebdc522f1b4788fa2e"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-html.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "html",
+            "size": 813013,
+            "sha256": "ce0fe779b9f3f3e0a563cafb998fbfbb28b0142287bf8ed478a966c02416da63"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-latex.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 805957,
+            "sha256": "520ffa72a9b8b4aad96dbbc6ea640e7771c331c848b0eb225b3d5ae145eda5b8"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-markdown.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 803809,
+            "sha256": "0de847a77f4fbaec32bb50c2b36ae632e7cbd14b07485f3224ccfaa7499f547e"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-markdownMP.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 810798,
+            "sha256": "5a71e82b5f59977705e0e748212509a48531426010f23c58ab0a0cb4f345415c"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-markdownMPStrict.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 809978,
+            "sha256": "1d32b01c0182c3b39245260e760e2df77a7799294d708d8a7cdae391fb645bac"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-markdownStrict.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 803288,
+            "sha256": "19aa4671eeae80a62bcc9e50b743ae6e59357314dcce0162206e92c0424cf44c"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-pdf.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 689870,
+            "sha256": "6f0a447dea1223896f49c7bf1eebaa7f8f66fd83ef39a1c38da41e5cefeac701"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-rst.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 803949,
+            "sha256": "e9d3f67da90e3a4f717dee28ac1316c1c9317212075d641072bf57430b121447"
+        },
+        {
+            "name": "arc42-template-RU-withhelp-textile.zip",
+            "language": "RU",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 803573,
+            "sha256": "ed087abf4bc63c67c229c7bea2b72c64cf5fb3263a87293a5c4a13068507bab3"
+        },
+        {
+            "name": "arc42-template-TR-plain-asciidoc.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14403,
+            "sha256": "dd8f36d70857dfb4ead900969f72c866bda4b91036f8d3c150487da4c74eb8ba"
+        },
+        {
+            "name": "arc42-template-TR-plain-docbook.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10729,
+            "sha256": "75e3baf8a0d24e60c10fc580d4a246dbd5f31b00e3059bb1dc445b892a778bea"
+        },
+        {
+            "name": "arc42-template-TR-plain-docx.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "docx",
+            "size": 30054,
+            "sha256": "7c562a43a1658335ef2f263eb7f6380f419479f9470ebf1c3306d1d529129e42"
+        },
+        {
+            "name": "arc42-template-TR-plain-epub.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "epub",
+            "size": 21523,
+            "sha256": "8442e42b13abca3165948e006d4db81d4ece3861d0b0a849e402a36ccd274bce"
+        },
+        {
+            "name": "arc42-template-TR-plain-gitHubMarkdown.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9712,
+            "sha256": "0dfb5991401bb89ed9f9c904c3479b9a32ee018f144b695d5b6f95d5539cf18d"
+        },
+        {
+            "name": "arc42-template-TR-plain-gitHubMarkdownMP.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11856,
+            "sha256": "f70f4fc477cf8b8f78d64131aa2ee8caebf69a35e9c6e9914de361edf641293b"
+        },
+        {
+            "name": "arc42-template-TR-plain-html.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "html",
+            "size": 18675,
+            "sha256": "c0184ac80ef423c66caec0227447b3509c6b579574a1f8c4ae3d2aec889a3ac1"
+        },
+        {
+            "name": "arc42-template-TR-plain-latex.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "latex",
+            "size": 11655,
+            "sha256": "3b4ea8ecc6e8b6e10f12c60205d39ab7cc585cab5dc645c709be160eed1d4952"
+        },
+        {
+            "name": "arc42-template-TR-plain-markdown.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10111,
+            "sha256": "b2ddd3939e9b94417912e69f38f5f090df6574f7e7e44344ccd9addedc79c486"
+        },
+        {
+            "name": "arc42-template-TR-plain-markdownMP.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12398,
+            "sha256": "ea8760f882b502b6efa9d9dbe3c7ca5880fceb75b29bd0c0bcd4cabee77762de"
+        },
+        {
+            "name": "arc42-template-TR-plain-markdownMPStrict.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12097,
+            "sha256": "f0746aebb0af49f64ecb25f9ec74bb0e1d90adffcd33981a64d7215a18cf7c71"
+        },
+        {
+            "name": "arc42-template-TR-plain-markdownStrict.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9795,
+            "sha256": "b3860ed15b3b2c212dcbdd6b208b4f4e6005a56c58480c5bf627c267ebbb3bd8"
+        },
+        {
+            "name": "arc42-template-TR-plain-pdf.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "pdf",
+            "size": 75470,
+            "sha256": "90a527d89c3d7a2d07e0792b106a999f47384e19f42a270f245caa2bdf085eb6"
+        },
+        {
+            "name": "arc42-template-TR-plain-rst.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "rst",
+            "size": 10188,
+            "sha256": "06ec61668df61bb1bd2f0e19de68166e3f05eb8e45e22b5a8bd8c1aebe9e90e0"
+        },
+        {
+            "name": "arc42-template-TR-plain-textile.zip",
+            "language": "TR",
+            "style": "plain",
+            "format": "textile",
+            "size": 10155,
+            "sha256": "ddba96d4ed566792a18d1490b77a9c273bfdfbbb6b733950c47aa9db05a76df3"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-asciidoc.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 810943,
+            "sha256": "9c77163dcf50251ae572c8679983dcbba731842378d98a927a4a51b0bdec8283"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-docbook.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 804456,
+            "sha256": "8e7e79e64c7fe6781b1787f108e46ef0d74090b1dd22401cb7f6f3546a667ca6"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-docx.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1560767,
+            "sha256": "e2d2de4b1281e3cc99455e0e88193d0340398f0afda1577569a6897f948da8b8"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-epub.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 770513,
+            "sha256": "094f54dd9727f54a6588c3e85c204934dc58b706f096824a3c15a1c6b365dccb"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-gitHubMarkdown.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 803090,
+            "sha256": "da17e528be9874f7261b6b84ad1d70eed3ed3459a9b4fce12c0f243ab0486f6a"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-gitHubMarkdownMP.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 809120,
+            "sha256": "87ab945c8233b0e4143471f894f3d79f3d7233d9e40a8b7fb9c78e25a6460432"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-html.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "html",
+            "size": 812593,
+            "sha256": "6df7296590905f6231e9c9bea430103c1e00ff490b01f458bf8d565dda5ae3ec"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-latex.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 805010,
+            "sha256": "72d87029ae29477d6283570c0a5e0271496aa87647285931556a858c9881577d"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-markdown.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 803756,
+            "sha256": "8d4d5a49306b6fea648506b9964679a14d812a39c97191dd4aa061871c3d94dd"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-markdownMP.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 809600,
+            "sha256": "877f45c9194f7b13b49705ee0f53bb740f710cd566617026feb2c037ecfe6b8d"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-markdownMPStrict.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 808703,
+            "sha256": "fa5d00e5dc7c47a1a11d53c69a264e761bd4db9d2585087873467c9dbfbb8554"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-markdownStrict.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 802971,
+            "sha256": "e94aa9d5dbe06a383b6c63f830432ede72466bace2928fda756ff3503bf79b3c"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-pdf.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 682369,
+            "sha256": "4de5b217abc0e7051529ec87e308d5a7aee18778e530db11a814463750860057"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-rst.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 803940,
+            "sha256": "96062dc67e914a862b0b55d0e9166c7f8f37a3718bd8d0ecf996e8506867312e"
+        },
+        {
+            "name": "arc42-template-TR-withhelp-textile.zip",
+            "language": "TR",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 803262,
+            "sha256": "8d137f0b6d66b5b0d39824b97208be57331ffc1554aa33e29b03e9626a842d4b"
+        },
+        {
+            "name": "arc42-template-UKR-plain-asciidoc.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14720,
+            "sha256": "bbe681b2a1d232e5c08600bbff381f8d18005b79dda5588e4afdf38b870473eb"
+        },
+        {
+            "name": "arc42-template-UKR-plain-docbook.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "docbook",
+            "size": 11089,
+            "sha256": "579f2030405fe5732bffa31a6f98490590b6105f0ca1a6e56e1ff4e75edae91b"
+        },
+        {
+            "name": "arc42-template-UKR-plain-docx.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "docx",
+            "size": 30490,
+            "sha256": "6c4494fcf94dc0e93305886fcead5f116ed6533846b7ca6ad54d508bddaf4bec"
+        },
+        {
+            "name": "arc42-template-UKR-plain-epub.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "epub",
+            "size": 22834,
+            "sha256": "0f9dc80cdb1677aaec0363477e24bb3ca641adb77097af6de161e490f4c88e71"
+        },
+        {
+            "name": "arc42-template-UKR-plain-gitHubMarkdown.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 10021,
+            "sha256": "a94439aa4e093e0c43a3f3341e8b5e3163cd3e9ad145e0883ee1cdfa25e46b39"
+        },
+        {
+            "name": "arc42-template-UKR-plain-gitHubMarkdownMP.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 12370,
+            "sha256": "dbe3e7beb01c5f2917daf488b16314643111d75acfb4b66f5f0ef3b0008f5155"
+        },
+        {
+            "name": "arc42-template-UKR-plain-html.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "html",
+            "size": 19086,
+            "sha256": "b0925574220c21dd60f6ac84f63a3e88eb279ab32e6e71aaf05149048cf2df04"
+        },
+        {
+            "name": "arc42-template-UKR-plain-latex.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "latex",
+            "size": 12295,
+            "sha256": "af8b9fd05c5b6fd3739be7052ee6980d2d66b4fd5f88ff57737cfb26f5e1b2a3"
+        },
+        {
+            "name": "arc42-template-UKR-plain-markdown.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10430,
+            "sha256": "fa423190de0d67d7796d63886bcabe41a154cffc68717bb9ad25fb4e86f738b6"
+        },
+        {
+            "name": "arc42-template-UKR-plain-markdownMP.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12970,
+            "sha256": "60a2655dad1e13f93ea7718e6abf36b4b2bdd8204e09c7d0dfa713476de564aa"
+        },
+        {
+            "name": "arc42-template-UKR-plain-markdownMPStrict.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 12640,
+            "sha256": "9f6a1729610de157ffa6025bee14cb2f1827e931e9a6adb103a8e12c7c66ee8b"
+        },
+        {
+            "name": "arc42-template-UKR-plain-markdownStrict.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 10111,
+            "sha256": "37dc1dff6e43993a0903b8a2bdbcd2504a80093a2bcccf80a18270a8ede8f5de"
+        },
+        {
+            "name": "arc42-template-UKR-plain-pdf.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "pdf",
+            "size": 86241,
+            "sha256": "4d91c0ddc1e496e97a0f3dc9f2bddc66c77c2b27c844dcedb9c5c04908f6424b"
+        },
+        {
+            "name": "arc42-template-UKR-plain-rst.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "rst",
+            "size": 10510,
+            "sha256": "86df57fdfee21f29f2e5b54ea5102b19f6de58230f47d5fb1d59822594203a3e"
+        },
+        {
+            "name": "arc42-template-UKR-plain-textile.zip",
+            "language": "UKR",
+            "style": "plain",
+            "format": "textile",
+            "size": 10475,
+            "sha256": "51fa755b235419fdde572db2f69c1a7e909f59042e0aedaabf2f486d62494d93"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-asciidoc.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 811732,
+            "sha256": "42ccf6d633716e306cd070e29ce5ba4b305dd6913677d53968e3ada0228819ca"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-docbook.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 804463,
+            "sha256": "5329a771975d90f22af72616a86d4eea3de99cab3dcb545fc50bad7617340dd6"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-docx.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1560516,
+            "sha256": "507eb52765f8d0d6fed3ad4eda5570d2e1b9f719e4fbbc590ddea6936f342c75"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-epub.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 772126,
+            "sha256": "08d87b1feb0ae815d832f17a0551affedc591a679cda26314bf6ba5d6724eb8c"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-gitHubMarkdown.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 803118,
+            "sha256": "ed99129284be6f07778358085d94c7aa7a62d926354c476afdf4c46fb2776c28"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-gitHubMarkdownMP.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 809914,
+            "sha256": "cb63a218fd2331047fe02cf6a879aa3d9842352593efdea3e9ae373e3c566e9d"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-html.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "html",
+            "size": 812744,
+            "sha256": "df7a6daf8dfaa24b843eeff1c1f942ba98780777478957b84470ae32314ac541"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-latex.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 805488,
+            "sha256": "0e5f622a350e53bfc56f05a68e4d2f2fc021702fcba144f703104d55b9a9c166"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-markdown.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 803467,
+            "sha256": "79757ebca09c200818fab03b7633612d0e4511dc3baeb408bd71d6ddae55068f"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-markdownMP.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 810170,
+            "sha256": "ace0cfcd3fa8f9f5e70ed466ab8857adb13315cca2b2cb194912e56a8fcb41e2"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-markdownMPStrict.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 809370,
+            "sha256": "262709454c8e8c7c7e2ec332b3b47b856c46f97b8adfcdd6a94d61a2756bd7de"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-markdownStrict.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 802952,
+            "sha256": "867c4b91e24f65fd98eb7d54e1912d6c6cf75d58399eb8e4ad733ebe8b2dc3d0"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-pdf.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 691493,
+            "sha256": "d79a4d6ca77040684fe0f14ee0c41ef002a57836a4ed73e9d1c647d09f2f0c86"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-rst.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 803571,
+            "sha256": "951b6a9d576e6cb33085937b5257eeb3c7b2dd37324b645ef15a512635fe52ef"
+        },
+        {
+            "name": "arc42-template-UKR-withhelp-textile.zip",
+            "language": "UKR",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 803270,
+            "sha256": "c78fe260b1123d2bffb003bd8c08d212a465230b9c9dc3e8a63688388a47ad9a"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-asciidoc.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14272,
+            "sha256": "22da2818b70251d95506347fd98f3432482d147c63b47cd4c313e237ad8654f1"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-docbook.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10711,
+            "sha256": "bcd120f2e2aa7ec081fb4988bb771c7b61c4a4a4440e3537485cd50cd2c9c71a"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-docx.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "docx",
+            "size": 30312,
+            "sha256": "4246b3c7f56a118a884a80123e306481a566e26b2b04a95dd82dddec39c8eaca"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-epub.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "epub",
+            "size": 21584,
+            "sha256": "75967718020b6949d5eb8c1ae0aaa0c17d9917f685fbf53d1d0740fc9c350b61"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-gitHubMarkdown.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9688,
+            "sha256": "bacb972514188678118174c28918afd5121f1eaa99a566dedd8e40e76bae9dc2"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-gitHubMarkdownMP.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11718,
+            "sha256": "467ff3dfded9787510f201901b2f470a97cf4b79f6442246869c89b2f51b5932"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-html.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "html",
+            "size": 18715,
+            "sha256": "ab20d6819a32e68fcd8bd63ab49a27887c7d8705587563dd430e8baa67d6187b"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-latex.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "latex",
+            "size": 11809,
+            "sha256": "20dd852d5a15e6db5ed1dafab4b53a113fb59aa0b437248d68c53ea503eb05f4"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-markdown.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10062,
+            "sha256": "b3349c3f1039441b05e3cad726d77c99c36283e6c45c02507338e6cd8ef9ab17"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-markdownMP.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12258,
+            "sha256": "12cba1b423c5af1377366fe3105ff2d220987c92bd467da45c44703f2f7aa300"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-markdownMPStrict.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 11978,
+            "sha256": "5f4dc7d5ca4ed905fa9372b9f9a39d0ce4cd334ef20d5ac28c09fe3139577667"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-markdownStrict.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9792,
+            "sha256": "2cad5a573628fd79eaaa99d02b3f8067c789e2e695e9bdafccc55f56431b84ac"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-pdf.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "pdf",
+            "size": 72355,
+            "sha256": "b86b5f0bbe421b86193d0b2ee1ac735ea843fefb5d2bfb8ae68e9d5c0c8c6f8e"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-rst.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "rst",
+            "size": 10105,
+            "sha256": "c0db9e60045e68667bf1e5776b51a5dd79cdae73fd80ca791ef63cf9f9a420ae"
+        },
+        {
+            "name": "arc42-template-ZH-TW-plain-textile.zip",
+            "language": "ZH-TW",
+            "style": "plain",
+            "format": "textile",
+            "size": 10115,
+            "sha256": "6c98b5a899c0a3d5b036581cc9d003fac30bae297bc80ffafc2c0e24d93ec22f"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-asciidoc.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 1035049,
+            "sha256": "35e6ded6af16ecb8e4d0bc5c6f00e05c1003794b99d073b0589e3fd29be40f80"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-docbook.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 1028787,
+            "sha256": "83f99a6326a8df397668915f92670058972bc8d92ba8021282aabb860f6938e7"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-docx.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 2052562,
+            "sha256": "62b5923804faed6b8c101bade5259e54fee3c7b09a1f69744640ded2369e33bc"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-epub.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 1035933,
+            "sha256": "aa9dcac00f156f214299e3d3a5c630cc25457b54d8153232d7e2f2b9815453b0"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-gitHubMarkdown.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 1027189,
+            "sha256": "6bdda9b5509cc792bb790fa02f3325718c7a035064d4e0513f141e472a291d1d"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-gitHubMarkdownMP.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 1032971,
+            "sha256": "f09295f0887288bb3921f999b03237dd71b8e1c6498f1b20924912aaf75d7d9b"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-html.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "html",
+            "size": 1037111,
+            "sha256": "4400d10a27ae01bbd7c37cd6f839e37cd4db098ba8ae07932514db23516f893c"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-latex.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 1029409,
+            "sha256": "30acda200ae2c952e3a996d6b986177f79cf6592aafa221733d7c032649f85bf"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-markdown.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 1027634,
+            "sha256": "617da4ce948c11e94f4fd3bc6af1198d39f048bc6cede705c066c36f00a1fe77"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-markdownMP.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 1033311,
+            "sha256": "27222988b020b017580f008ca859b1995a231af5ce58e26f03ce5f084cbf66b1"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-markdownMPStrict.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 1032498,
+            "sha256": "b94f207fe8661755303ba240f8c3ae7e6cd235f8a12054c94752ca12a73bedcb"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-markdownStrict.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 1027089,
+            "sha256": "c17e40d393dfbe453b50f6b65402dda36587fef05c260ef154a5f93e1b943ceb"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-pdf.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 1163432,
+            "sha256": "1db6df37b45d915be5b9ba04abc7fa1f37f9e827fb4b16b62b2b38a04ce5ee56"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-rst.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 1027662,
+            "sha256": "6595a1f9be84f50f32e33668112a066d361af8e0f05bc45966fd22d2d214cd95"
+        },
+        {
+            "name": "arc42-template-ZH-TW-withhelp-textile.zip",
+            "language": "ZH-TW",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 1027632,
+            "sha256": "44e9658cd43b271fc850839bb5666208930045804fd32a189ba28b4c8e6e3097"
+        },
+        {
+            "name": "arc42-template-ZH-plain-asciidoc.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "asciidoc",
+            "size": 14218,
+            "sha256": "9e26ce7b80081cd70406431822b8756506a9756034569dac38f66cc8b13c22aa"
+        },
+        {
+            "name": "arc42-template-ZH-plain-docbook.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "docbook",
+            "size": 10662,
+            "sha256": "e6a386f9dd2e26b423ce6c1a4ba59bbdbaae09237ba33f980d1f011fd9fc9b2b"
+        },
+        {
+            "name": "arc42-template-ZH-plain-docx.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "docx",
+            "size": 30211,
+            "sha256": "1645aa0d18df92552eeb4a0a08d864e8e64c5152750550555406e6684d560896"
+        },
+        {
+            "name": "arc42-template-ZH-plain-epub.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "epub",
+            "size": 21480,
+            "sha256": "0cfb4f8791e65bb362c1ccadfc9912f39eb5439d2859683e66cc459b635a1226"
+        },
+        {
+            "name": "arc42-template-ZH-plain-gitHubMarkdown.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "gitHubMarkdown",
+            "size": 9646,
+            "sha256": "b5f99687bd95a6bd6477a9c7a17fd4b779f356c9c2a5f160b9a346c62d447aad"
+        },
+        {
+            "name": "arc42-template-ZH-plain-gitHubMarkdownMP.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "gitHubMarkdownMP",
+            "size": 11654,
+            "sha256": "e26f76695784688a2a3d2523f1205c52d6bedf351c5f5fa1eabbbcc46bd0cfdb"
+        },
+        {
+            "name": "arc42-template-ZH-plain-html.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "html",
+            "size": 18670,
+            "sha256": "97eaa5f543b1ae5f3f3b793eb6a667dad8395ad2b32bf5fb86af00fab58c90da"
+        },
+        {
+            "name": "arc42-template-ZH-plain-latex.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "latex",
+            "size": 11746,
+            "sha256": "b6367510f196c8e4febb01040ec23b1d9c6d2e58bd6410d83a458a9a5ba36c65"
+        },
+        {
+            "name": "arc42-template-ZH-plain-markdown.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "markdown",
+            "size": 10012,
+            "sha256": "c7b695cf9ca0a50c8f0a33884498929cf88b7979f4f042a2dc501690130e0a82"
+        },
+        {
+            "name": "arc42-template-ZH-plain-markdownMP.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "markdownMP",
+            "size": 12178,
+            "sha256": "cb504dada5a5b147be41bcc6d609975e20ce1465c94864191aecdce8bdccce94"
+        },
+        {
+            "name": "arc42-template-ZH-plain-markdownMPStrict.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "markdownMPStrict",
+            "size": 11913,
+            "sha256": "d2adc4e998690fb028f48e3c16bac2dee0013344ec02da2e57bacbe9d9f51e1d"
+        },
+        {
+            "name": "arc42-template-ZH-plain-markdownStrict.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "markdownStrict",
+            "size": 9742,
+            "sha256": "ffb76117bc5a0b5f4313d6975b414fe7f89c2e2b578ce5c8ffc38fcdffb2616c"
+        },
+        {
+            "name": "arc42-template-ZH-plain-pdf.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "pdf",
+            "size": 66304,
+            "sha256": "d68ccf74eee844e981719c9c10802232d459bb6c2e33b82fba6a59207397069c"
+        },
+        {
+            "name": "arc42-template-ZH-plain-rst.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "rst",
+            "size": 10049,
+            "sha256": "8d3d11bee5b1ede802ab3ff84fa8bf3d66638f10a8f1118dd1ba90f7ba9ccb0e"
+        },
+        {
+            "name": "arc42-template-ZH-plain-textile.zip",
+            "language": "ZH",
+            "style": "plain",
+            "format": "textile",
+            "size": 10057,
+            "sha256": "bef211b241c96e295e29bfe179f823fdbd0dc2ab090c0039231aa0b0910f4e69"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-asciidoc.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "asciidoc",
+            "size": 544278,
+            "sha256": "745065e2b375a872813e82f1bab0d9c8bbe598401fb9a785f6558660fef64283"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-docbook.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "docbook",
+            "size": 537994,
+            "sha256": "03907a58c3a55d115622935be3e16ded09cd7a312d7133e8eb7d2ed85b81fee6"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-docx.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "docx",
+            "size": 1030320,
+            "sha256": "52fbaa3d3959e7783e246e5c566889a9fba1c265c7f85db8809840d7dea0b9f2"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-epub.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "epub",
+            "size": 503928,
+            "sha256": "e9ebb85a78d4b43eff1edd26a1abd9c622de7bb573a538a7dce0560fc71481de"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-gitHubMarkdown.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "gitHubMarkdown",
+            "size": 536597,
+            "sha256": "98d90c657920cc1ba3cc2a292814a32d0fb0ed40cecdba02081f4b3c686a86c6"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-gitHubMarkdownMP.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "gitHubMarkdownMP",
+            "size": 542157,
+            "sha256": "ed8eb2a9cee9c11efc4762e4edc7424b20fed06b18be47ac4fa2ab10dab71c1c"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-html.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "html",
+            "size": 546383,
+            "sha256": "4455013f5df46f6ed7f33ad1c35b5148706eff5eb573afc794df104ae3f91708"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-latex.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "latex",
+            "size": 538743,
+            "sha256": "9a5e5cb2c4870f80e494bbe359cc76990876dfb0394d63521c9bfd5403263402"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-markdown.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "markdown",
+            "size": 536893,
+            "sha256": "92f20999625ef0b9ecb5996906c5ba7e37d55ac3f5c849f737e3adbd66b31638"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-markdownMP.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "markdownMP",
+            "size": 542422,
+            "sha256": "45aa0abde8e345589bb021d619bbaa44b6b1dd2fddf232de8f218dde71b2f304"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-markdownMPStrict.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "markdownMPStrict",
+            "size": 541631,
+            "sha256": "a87ed57fb1d9d2690428d2a2843073850fd13e3c3f87c11c8d2c10bc10adaea5"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-markdownStrict.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "markdownStrict",
+            "size": 536436,
+            "sha256": "8498045e3d553bf8b9fa3d145e3150987ffc0e6ed81e2125accc71cd0d765d47"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-pdf.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "pdf",
+            "size": 555917,
+            "sha256": "0710ba99461a690ad4e3a772f0d4fc4e32cc51ed92278c8865f75532888bd018"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-rst.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "rst",
+            "size": 536935,
+            "sha256": "4b76c5b57db720fc8bb9ee1f00e209d4cffcb296233acd909b42a854006b0b68"
+        },
+        {
+            "name": "arc42-template-ZH-withhelp-textile.zip",
+            "language": "ZH",
+            "style": "withhelp",
+            "format": "textile",
+            "size": 537018,
+            "sha256": "d13be504bbd90cc353add4faf74023d24751e76254bb59cfef1a6c04eb035796"
+        }
+    ]
+}
