@@ -17,10 +17,11 @@
 文件说明：
 
 - `manifest.json`：同一 Release 的官方清单，原样保存，其中记录了发布包的名称、大小和 SHA-256。
-- `arc42-template-ZH-withhelp-markdown.zip`：官方发布包原件。
-- `arc42-template-ZH.md`、`images/`：从发布包直接解压，未作修改。
+- `arc42-template-ZH.md`、`images/`：从官方发布包直接解压，未作修改。
 - `LICENSE.txt`：模板源 commit 中的官方许可证声明，原样复制。
 - `README.md`：本说明，由本基座添加，不属于 arc42 模板。
+
+官方发布包 `arc42-template-ZH-withhelp-markdown.zip` 不随仓库保存：其解压内容已逐文件收录，再存一份原件属于重复副本。需要核对来源时，按上表的 tag 和 SHA-256 从官方 Release 重新下载该发布包比对。
 
 ## 署名与许可证
 
@@ -50,8 +51,7 @@
 本目录内容由 `tests/test_template_integrity.py` 中的 `test_arc42_official_template` 校验：
 
 - `manifest.json` 中的 tag、模板 commit 和发布包 SHA-256；
-- 发布包的大小和 SHA-256；
-- 解压后的每个文件与发布包内容逐字节一致，且目录中没有未登记的文件；
+- 收录文件各自的 SHA-256 与测试中的固定值一致，且目录中没有未登记文件，也没有重复的发布包副本；
 - 许可证声明和本 README 中的署名信息。
 
-更新属于显式维护操作：先审阅新 Release 的变更，再下载新 Release 的 `manifest.json` 和对应发布包，核对 SHA-256，替换本目录内容，并同步更新本 README 和测试中的固定值，最后重跑测试。
+更新属于显式维护操作：先审阅新 Release 的变更，再下载新 Release 的 `manifest.json` 与发布包，核对发布包 SHA-256 和解压内容，替换本目录文件，并同步更新本 README 和测试中的固定值，最后重跑测试。

@@ -3,7 +3,6 @@ import json
 import os
 import re
 import unittest
-import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -19,6 +18,14 @@ ARC42_TAG = "2026.10.19"
 ARC42_COMMIT = "9057fe1f32ce543e546f76971515c537f0dd3f63"
 ARC42_ASSET = "arc42-template-ZH-withhelp-markdown.zip"
 ARC42_SHA256 = "92f20999625ef0b9ecb5996906c5ba7e37d55ac3f5c849f737e3adbd66b31638"
+ARC42_FILES = {
+    "arc42-template-ZH.md": "e6a583d67419ad4804039885be573ccaf455275ae803cfc1cbc11a8d1e5b5ab3",
+    "images/01_2_iso-25010-topics-ZH-2023.drawio.png": "c496860a0ff530a787a583b67f7fb095bbb44b3296f2ff681fea7f57160c1132",
+    "images/05_building_blocks-ZH.drawio.png": "78e70b6bc1eb76f3e93a9f7fef1a19700973a4cfbb5b1ed328020c541b3139ad",
+    "images/08-concepts-ZH.drawio.png": "c59bbda52d28825a801e03b822fc51a81f3b45c8b967b6d7c0212c4b8cbe4343",
+    "images/10_stimulus.png": "07d5d4de91c3930c3576b74c2303bab3d62dec48f7c5fae7bd64219be498aa54",
+    "images/arc42-logo.png": "6ec4570bca83ff071b241692d8561d5cebe9737917d57724ed731a7e8801c6ce",
+}
 
 
 class TemplateIntegrityTests(unittest.TestCase):
@@ -74,19 +81,13 @@ class TemplateIntegrityTests(unittest.TestCase):
         self.assertEqual(manifest["templateCommit"], ARC42_COMMIT)
         entry = next(f for f in manifest["files"] if f["name"] == ARC42_ASSET)
         self.assertEqual(entry["sha256"], ARC42_SHA256)
-        archive = folder / ARC42_ASSET
-        data = archive.read_bytes()
-        self.assertEqual(len(data), entry["size"])
-        self.assertEqual(hashlib.sha256(data).hexdigest(), ARC42_SHA256)
-        with zipfile.ZipFile(archive) as zf:
-            members = [n for n in zf.namelist() if not n.endswith("/")]
-            self.assertIn("arc42-template-ZH.md", members)
-            for name in members:
-                with self.subTest(file=name):
-                    self.assertEqual((folder / name).read_bytes(), zf.read(name))
+        self.assertEqual(list(folder.glob("*.zip")), [], "发布包为解压内容的冗余副本，不再随仓库分发")
+        for name, digest in ARC42_FILES.items():
+            with self.subTest(file=name):
+                self.assertEqual(hashlib.sha256((folder / name).read_bytes()).hexdigest(), digest)
         extracted = {p.relative_to(folder).as_posix() for p in folder.rglob("*") if p.is_file()}
-        own = {"README.md", "LICENSE.txt", "manifest.json", ARC42_ASSET}
-        self.assertEqual(extracted - own, set(members), "出现未登记的文件")
+        own = {"README.md", "LICENSE.txt", "manifest.json"}
+        self.assertEqual(extracted - own, set(ARC42_FILES), "出现未登记的文件")
         license_text = (folder / "LICENSE.txt").read_text(encoding="utf-8")
         self.assertIn("Creative Commons Attribution-ShareAlike 4.0", license_text)
         notice = (folder / "README.md").read_text(encoding="utf-8")
